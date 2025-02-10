@@ -1,0 +1,8 @@
+.App {
+  display: grid;
+  height: 100svh;
+  background: #333;
+  color: #ddd;
+  place-content: center;
+  gap: 1rem;
+}
