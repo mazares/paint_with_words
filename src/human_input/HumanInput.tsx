@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 
 import "./HumanInput.css";
 
@@ -95,7 +95,7 @@ function HumanInput() {
 
   const [text, setText] = useState<string>("");
   const [isActive, setIsActive] = useState<boolean>(false);
-  const isSpeechDetected: boolean = false;
+
   const [language, setlanguage] = useState<string>("en-US");
 
   const handleOnRecord = () => {
